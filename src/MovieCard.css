@@ -1,0 +1,58 @@
+/* MovieCard.css */
+.movie-card {
+    width: 25%; /* Adjust the width as needed */
+    margin: 20px 0;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-card img {
+    width: 80%;
+    height: 60%; /* Set the height of each image relative to the card height */
+    object-fit: cover; /* Maintain aspect ratio while covering the entire space */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .movie-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #495057;
+  }
+  
+  .movie-card button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .movie-card button:hover {
+    background-color: #2980b9;
+  }
+  
+  .movie-card a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #495057;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .movie-card a:hover {
+    color: #e74c3c;
+  }
+  

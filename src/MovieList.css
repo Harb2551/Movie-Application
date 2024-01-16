@@ -1,0 +1,9 @@
+/* MovieList.css */
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Add any additional styling for the MovieList here */
+  
